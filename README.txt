@@ -45,17 +45,39 @@ This section describes how to install the plugin and get it working.
 
 e.g.
 
-1. Upload `wp_impressum.php` to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Put the Path to the imprint in the config
-4. Set the marker to the imprint page
-5. Finish! get save of updates your imprint.
+Installiere das Plugin wie üblich.
+Gehe zu Einstellungen – Impressum und füge auf der Seite die URLs zu den angelegten Unterseiten auf dem Webspace ein (Dropbox / AWS).
+Füge zu den entsprechenden Seiten folgende Shortcodes hinzu (Seiten müssen erst angelegt werden)
+[wp_impressum text="impressum"]
+[wp_impressum text="datenschutz"]
+[wp_impressum text="agb"]
+[wp_impressum text="disclaimer"]
+
+
+Install the plugin as usual.
+
+Go to Settings - Impressum and add the URLs to the created pages on the web space (Dropbox / AWS).
+
+Add to the corresponding pages the following shortcodes (pages have to be created)
+
+[wp_impressum text="impressum"]
+[wp_impressum text="datenschutz"]
+[wp_impressum text="agb"]
+[wp_impressum text="disclaimer"]
+
 
 == Frequently Asked Questions ==
 
-= What is the marker for my imprint page? =
+= Shortcodes: =
 
 [wp_impressum text="impressum"]
+[wp_impressum text="datenschutz"]
+[wp_impressum text="agb"]
+[wp_impressum text="disclaimer"]
+
+Weiterführende Informationen sind auf der Webseite [http://zentrales-impressum.de](http://zentrales-impressum.de/ "http://zentrales-impressum.de") zu finden.
+
+Further information can be found on the website [http://zentrales-impressum.de](http://zentrales-impressum.de/ "http://zentrales-impressum.de")
 
 == Screenshots ==
 
