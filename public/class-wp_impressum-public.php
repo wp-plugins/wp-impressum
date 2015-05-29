@@ -102,7 +102,7 @@ class Wp_impressum_Public {
 	
 	public function add_shortcodes(){
 	
-		add_shortcode('code',array( &$this, 'dataInclude'));
+		add_shortcode('wp_impressum',array( &$this, 'dataInclude'));
 	
 	}
 	

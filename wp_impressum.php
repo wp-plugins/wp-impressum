@@ -13,12 +13,12 @@
  * @package           Wp_impressum
  *
  * @wordpress-plugin
- * Plugin Name:       wp_impressum
- * Plugin URI:        http://www.conversion-junkies.de
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
- * Version:           1.0.0
+ * Plugin Name:       WP Impressum
+ * Plugin URI:        http://www.zentrales-impressum.de
+ * Description:       Store and manage sites such as Imprint etc. on a central web space and integrate them on your websites
+ * Version:           1.0.1
  * Author:            Marcus Franke
- * Author URI:        http://www.conversion-junkies.de
+ * Author URI:        http://www.zentrales-impressum.de
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       wp_impressum
